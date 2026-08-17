@@ -12,11 +12,20 @@ export default function Footer() {
         <p className="mt-2 text-center">
         Made With &hearts; by <Link to="https://puneetkumar.netlify.app/" target="_blank">Puneet Kumar</Link>
         </p>
-        <p className=" text-center">
-          ©  2026 All Rights Reserved
-        </p>
+         {/* <p className="mt-1 text-sm text-gray-100">
+              Simple tools for a healthier lifestyle.
+            </p> */}
+       <p className="text-sm text-white">
+            © 2026 BMI Diet Planner. All rights reserved.
+          </p>
         
       </div>
+
+     
+
+          
+
+        
     </footer>
   );
 }

@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function NotFound() {
     return (
         <div className="min-h-screen flex flex-col items-center justify-center bg-white text-gray-900 dark:bg-gray-950 dark:text-white">
@@ -11,12 +13,12 @@ export default function NotFound() {
                 Sorry, the page you're looking for doesn't exist. <br /> click on Home Page......
             </p>
 
-            <a
-                href="/"
-                className="mt-6 rounded-lg bg-blue-600 px-5 py-3 text-white hover:bg-blue-700"
+            <Link to='/'
+           
+                className="mt-6 rounded-sm  bg-blue-600 px-10 py-3 text-white hover:bg-blue-700"
             >
                 Go Home
-            </a>
+            </Link>
         </div>
     );
 }

@@ -48,12 +48,13 @@ function App() {
   
   return (
     <>
+    <div className='dark:bg-gray-950 dark:text-white'>
     <Navbar />
     {/* <Header /> */}
     {/* <Home /> */}
-
     <Routes>
       <Route path='/' element={<Home />} />
+      <Route path='/DietApp/' element={<Home />} />
       <Route path='/bmi' element={<BMICalculator />} />
       <Route path='/diet' element={<DietPlan  />} />
       <Route path='*' element={<NotFound  />}/>
@@ -76,6 +77,8 @@ function App() {
       {/* </Routes> */} 
 
       <Footer />
+      </div>
+
     </>
   )
 }
