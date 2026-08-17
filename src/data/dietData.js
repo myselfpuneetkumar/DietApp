@@ -15,7 +15,6 @@ const dietPlans = {
       time: "8:30 AM",
       meal: [
         "🥔 2 Stuffed Parathas (Aloo/Paneer) with Butter/Curd",
-        "OR",
         "🍳 3 Egg Omelet",
         "🍞 2 Buttered Toasts"
       ]
@@ -46,7 +45,6 @@ const dietPlans = {
       meal: [
         "☕ Tea / Coffee",
         "🧀 Paneer Sandwich",
-        "OR",
         "🥣 Poha with Peanuts & Sprouts"
       ]
     },
@@ -67,7 +65,6 @@ const dietPlans = {
       meal: [
         "🥛 Warm Milk",
         "🍯 1 tsp Honey",
-        "OR",
         "🌿 A Pinch of Turmeric"
       ]
     }
@@ -123,7 +120,6 @@ const dietPlans = {
     meal: [
       "☕ Green Tea",
       "🥪 Whole Wheat Sandwich",
-      "OR",
       "🌽 Roasted Corn"
     ]
   },
@@ -191,7 +187,6 @@ Overweight: {
     meal: [
       "☕ Green Tea",
       "🥜 Roasted Chana",
-      "OR",
       "🥗 Sprouts Salad"
     ]
   },

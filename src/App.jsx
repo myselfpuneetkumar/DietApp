@@ -34,6 +34,7 @@ import BMICalculator from './components/BMICalculator'
 import Home from './Home'
 import { Route, Routes } from 'react-router-dom'
 import DietPlan from './pages/DietPlan'
+import NotFound from './components/Not-Found'
 
 
 
@@ -55,6 +56,7 @@ function App() {
       <Route path='/' element={<Home />} />
       <Route path='/bmi' element={<BMICalculator />} />
       <Route path='/diet' element={<DietPlan  />} />
+      <Route path='*' element={<NotFound  />}/>
 
     </Routes>
 
