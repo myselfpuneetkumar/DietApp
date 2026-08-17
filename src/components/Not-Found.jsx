@@ -8,7 +8,7 @@ export default function NotFound() {
             </h2>
 
             <p className="mt-2 text-gray-500 dark:text-gray-400">
-                Sorry, the page you're looking for doesn't exist.
+                Sorry, the page you're looking for doesn't exist. <br /> click on Home Page......
             </p>
 
             <a
